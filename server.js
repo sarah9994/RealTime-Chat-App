@@ -13,7 +13,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-const AdminName = 'ChatApp Admin';
+const AdminName ='ChatApp Admin';
 
 // Run when client connects
 io.on('connection', socket => {
