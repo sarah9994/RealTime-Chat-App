@@ -184,8 +184,7 @@ a {
 	}
 
 	.chat-sidebar {
-		display: none;
+		display: hidden;
 	}
 }
-
 
